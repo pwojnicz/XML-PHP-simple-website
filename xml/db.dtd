@@ -1,0 +1,35 @@
+<!ELEMENT db (siteinfo, toplist, artists) >
+<!ENTITY amp "&#38;">
+
+<!-- SITEINFO -->
+<!ELEMENT siteinfo (head, description, about, author, sources)>
+	<!ELEMENT head (#PCDATA) >
+	<!ELEMENT description (#PCDATA) >
+	<!ELEMENT about (#PCDATA) >
+	<!ELEMENT author (#PCDATA) >
+	<!ELEMENT sources (source+) >
+		<!ELEMENT source (#PCDATA) >
+		<!ATTLIST source href CDATA #REQUIRED>
+
+<!-- TOPLIST -->
+<!ELEMENT toplist (song+)>
+	<!ELEMENT song (title, yt, album, date) >
+	<!ATTLIST song position CDATA #REQUIRED artist_id CDATA #REQUIRED >
+		<!ELEMENT title (#PCDATA) >
+		<!ELEMENT yt (#PCDATA) >
+		<!ELEMENT album (#PCDATA) >
+		<!ELEMENT date (#PCDATA) >
+
+<!-- ARTISTS -->
+<!ELEMENT artists (artist+) >
+	<!ELEMENT artist (name, start-date, stop-date?, from, humans, genres, bio) >
+	<!ATTLIST artist id CDATA #REQUIRED>
+		<!ELEMENT name (#PCDATA) >
+		<!ELEMENT start-date (#PCDATA) >
+		<!ELEMENT stop-date (#PCDATA) >
+		<!ELEMENT from (#PCDATA) >
+		<!ELEMENT humans (human*) >
+			<!ELEMENT human (#PCDATA) >
+		<!ELEMENT genres (genre*) >
+			<!ELEMENT genre (#PCDATA) >
+		<!ELEMENT bio (#PCDATA) >

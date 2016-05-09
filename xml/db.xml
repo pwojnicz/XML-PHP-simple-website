@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE db SYSTEM "db.dtd">
+
+<db xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="db.xsd">
+	<!-- Informacje o stronie -->
+	<siteinfo>
+		<head>Top Wszech Czasów</head>
+		<description>
+			Miała być tutaj lista Top Wszech Czasów Trójki, ale uznałem, że tamta lista jest nudna i lepiej będzie zrobić swoją własną. Zatem jest to moje osobiste Tom Wszech Czasów :)
+		</description>
+		<about>XML i technologie pokrewne 2015: projekt zaliczeniowy</about>
+		<author>Paweł Wojnicz, Informatyka II, luty 2016</author>
+		<sources>
+			<source href="https://pl.wikipedia.org/">Wikipedia</source>
+			<source href="https://last.fm/">last.fm</source>
+		</sources>
+	</siteinfo>
+
+	<!-- Ranking: utwory -->
+	<toplist>
+		<song position="1" artist_id="1">
+			<title>Sound of silence</title>
+			<yt>kae_LoslXSk</yt>
+			<album>Sounds of silence</album>
+			<date>1965</date>
+		</song>
+
+		<song position="2" artist_id="2">
+			<title>Echoes</title>
+			<yt>bnC7TdkRnP4</yt>
+			<album>Meddle</album>
+			<date>1971</date>
+		</song>
+
+		<song position="3" artist_id="3">
+			<title>In the Court of the Crimson King</title>
+			<yt>fcAk-WzcfKo</yt>
+			<album>In the Court of the Crimson King</album>
+			<date>1969</date>
+		</song>
+
+		<song position="4" artist_id="4">
+			<title>Epitafium dla W. Wysockiego</title>
+			<yt>8tj9YqlQ7es</yt>
+			<album>Strącanie aniołów</album>
+			<date>1980</date>
+		</song>
+
+		<song position="5" artist_id="5">
+			<title>Run of the Mill</title>
+			<yt>ZuXoalKim9c</yt>
+			<album>Rocka Rolla</album>
+			<date>1974</date>
+		</song>
+
+		<song position="6" artist_id="6">
+			<title>I don't wanna grow up</title>
+			<yt>UHLjqkC1gPg</yt>
+			<album>Bone Machine</album>
+			<date>1992</date>
+		</song>
+
+		<song position="7" artist_id="7">
+			<title>Autoportret Witkacego</title>
+			<yt>QTIJeROtF48</yt>
+			<album>Pamiątki</album>
+			<date>1991</date>
+		</song>
+
+		<song position="8" artist_id="8">
+			<title>Mr. Tambourine Man</title>
+			<yt>gHSWiatjMkk</yt>
+			<album>Bringing It All Back Home</album>
+			<date>1965</date>
+		</song>
+
+		<song position="9" artist_id="9">
+			<title>People are strange</title>
+			<yt>GJY8jJkDoMY</yt>
+			<album>Strange Days</album>
+			<date>1967</date>
+		</song>
+
+		<song position="10" artist_id="10">
+			<title>Child in time</title>
+			<yt>4wAPTsjhrjM</yt>
+			<album>Concerto for Group and Orchestra</album>
+			<date>1969</date>
+		</song>
+	</toplist>
+
+	<!-- Lista artystów: informacje -->
+	<artists>
+		<artist id="1">
+			<name>Simon &amp; Garfunkel</name>
+			<start-date>1957</start-date>
+			<from>Nowy Jork, USA</from>
+			<humans>
+				<human>Art Garfunkel</human>
+				<human>Paul Simon</human>
+			</humans>
+			<genres>
+				<genre>folk</genre>
+				<genre>folk rock</genre>
+			</genres>
+			<bio>Amerykański duet rockowy powstały w 1957 (jako Tom and Jerry – obecna nazwa została wybrana przez duet w 1964), najczęściej kojarzony z gatunkami folk rock i soft rock. Grupa była nie tylko najpopularniejszym duetem wokalnym, lecz także należała do najbardziej znanych grup rockowych. W jej skład wchodzili Paul Simon – grający na gitarze i śpiewający oraz komponujący piosenki i piszący do nich teksty, oraz obdarzony bardzo czystym głosem, wysokim tenorem, Art Garfunkel. Muzyka grupy, wykonywana zwykle przy akompaniamencie gitary akustycznej i delikatnie grającego zespołu rockowego, charakteryzowała się wpadającymi w ucho melodiami i trafiającymi do młodzieży tekstami. Choć grupa nagrywała zaledwie sześć lat, pozostawiła po sobie olbrzymi katalog przebojów.</bio>
+		</artist>
+
+		<artist id="2">
+			<name>Pink Floyd</name>
+			<start-date>1965</start-date>
+			<stop-date>2014</stop-date>
+			<from>Cambridge, Anglia</from>
+			<humans>
+				<human>David Gilmour</human>
+				<human>Syd Barett</human>
+				<human>Richard Wright</human>
+				<human>Roger Waters</human>
+				<human>Nick Mason</human>
+			</humans>
+			<genres>
+				<genre>rock progresywny</genre>
+				<genre>rock psychodeliczny</genre>
+				<genre>space rock</genre>
+			</genres>
+			<bio>Angielski zespół rockowy założony w 1965 roku w Londynie. Ich twórczość, początkowo klasyfikowana jako rock psychodeliczny, w późniejszych latach nabrała cech rocka progresywnego. Grupa znana jest z filozoficznie zabarwionych tekstów piosenek, eksperymentów z dźwiękiem, innowacyjnego podejścia do kwestii grafiki w albumach oraz rozbudowanych występów koncertowych. Sprzedali na całym świecie ponad 250 milionów albumów, co czyni ich jedną z najlepiej sprzedających się grup muzycznych w historii.</bio>
+		</artist>
+
+		<artist id="3">
+			<name>King Crimson</name>
+			<start-date>1965</start-date>
+			<stop-date>2014</stop-date>
+			<from>Cambridge, Anglia</from>
+			<humans>
+				<human>Robert Fripp</human>
+				<human>Mel Collins</human>
+				<human>Tony Levin</human>
+				<human>Pat Mastelotto</human>
+				<human>Gavin Harrison</human>
+				<human>Jakko Jakszyk</human>
+				<human>Bill Rieflin</human>
+			</humans>
+			<genres>
+				<genre>rock progresywny</genre>
+				<genre>rock psychodeliczny</genre>
+				<genre>space awangardowy</genre>
+			</genres>
+			<bio>Brytyjska grupa muzyczna z kręgu awangardowego i progresywnego rocka, założona w 1969 roku. Nazwę zaczerpnęła od jednego z synonimów Belzebuba. Jej korzeni należy szukać w krótko działającym Giles, Giles and Fripp. Wskutek licznych zmian personalnych nigdy nie wykształciła stałego brzmienia. Założycielem i jej jedynym stałym członkiem jest Robert Fripp, wirtuoz gitary i melotronu. Muzyka King Crimson czerpie wiele inspiracji z muzyki poważnej, w tym współczesnej, także z awangardowego jazzu i jazz rocka. Złożoność i różnorodność poszczególnych wcieleń zespołu nie pozwala na jednolitą analizę dokonań grupy. Charakterystycznym dla King Crimson jest to, że nigdy nie odstąpiła od awangardowej koncepcji na rzecz łatwiejszego brzmienia (Roberta Frippa charakteryzuje bardzo poważny stosunek do własnej twórczości). Kilkukrotnie zawieszała działalność, ostatnio w 2010 roku, wówczas Fripp deklarował że na czas nieokreślony, jednakże w 2013 ponownie powołał ją do życia.</bio>
+		</artist>
+
+		<artist id="4">
+			<name>Jacek Kaczmarski</name>
+			<start-date>1979</start-date>
+			<stop-date>2001</stop-date>
+			<from>Warszawa, Polska</from>
+			<humans>
+				<human>Jacek Kaczmarski</human>
+			</humans>
+			<genres>
+				<genre>poezja śpiewana</genre>
+			</genres>
+			<bio>Urodzony 22 marca 1957 w Warszawie, zmarł 10 kwietnia 2004 w Gdańsku. Polski poeta, prozaik, kompozytor, piosenkarz, twórca tekstów piosenek. Znany głównie dzięki piosenkom o tematyce historycznej (Rejtan, czyli raport ambasadora; Sen Katarzyny II, Lekcja historii klasycznej) i społeczno-politycznej (Mury, Nasza klasa, Obława).
+
+			Postać powszechnie kojarzona z etosem pierwszej Solidarności oraz stanem wojennym – okresem, kiedy jego liryka, rozpowszechniana w nieoficjalnych wydawnictwach, identyfikowana była jako głos antykomunistycznej opozycji.
+
+			Jacek Kaczmarski był przede wszystkim poetą. Napisał ponad 600 wierszy, 5 powieści i dwa libretta. Był także kompozytorem muzyki do swoich wierszy i pieśniarzem – ponad 25 lat wykonywał swoje utwory na scenie. Reprezentował nurt tzw. piosenki autorskiej, czyli w całości stworzonej przez jedną osobę, tak w warstwie tekstowej, muzycznej, jak i wykonawczej.</bio>
+		</artist>
+
+		<artist id="5">
+			<name>Judas Priest</name>
+			<start-date>1969</start-date>
+			<from>Birmingham, West Midlands, Anglia, Wielka Brytania</from>
+			<humans>
+				<human>Ian Hill</human>
+				<human>Rob Halford</human>
+				<human>Glenn Tipton</human>
+				<human>Scott Travis</human>
+				<human>Richie Faulkner</human>
+			</humans>
+			<genres>
+				<genre>heavy metal</genre>
+				<genre>hard rock</genre>
+				<genre>NWoBHM</genre>
+				<genre>speed metal</genre>
+			</genres>
+			<bio>Brytyjska grupa muzyczna założona w 1969 roku w Birmingham w Anglii, znana głównie z dwóch gitar prowadzących i dysponującego bardzo dużą skalą głosu wokalisty. Zespół sprzedał ponad 50 milionów albumów na całym świecie.
+
+			Po początkowych problemach z wytwórnią i wielu zmianach w składzie, grupa osiągnęła znaczny komercyjny sukces w latach 80. i stała się silną inspiracją dla muzyków New Wave of British Heavy Metal i thrashmetalowców. W roku 1989 członkowie zostali oskarżeni o umieszczanie w tekstach utworów przekazów podprogowych, które miały być przyczyną samobójstwa dwóch młodych ludzi, jednakże zostali uniewinnieni.
+
+			Skład zespołu często ulegał zmianie, wliczając w to liczne zmiany perkusisty w latach 70 i chwilowe odejście wokalisty, Roba Halforda na początku lat 90. W 2011 zespół rozpoczął pożegnalne, światowe tournée oraz ogłosił, że nowego albumu należy oczekiwać pod koniec 2012 roku, jednak na początku lipca, gitarzysta, Richie Faulkner powiedział, że premiery należy oczekiwać na początku 2013 roku.
+
+			Zespół uważany jest za jeden z najważniejszych w kulturze heavymetalowej, nazywani często – "Metal Gods" ("Bogowie Metalu"). Koncerty, na których Halford często wjeżdżał na scenę Harleyem oraz jego ubiór przeszły do historii heavy metalu.</bio>
+		</artist>
+
+		<artist id="6">
+			<name>Tom Waits</name>
+			<start-date>1973</start-date>
+			<from>Pomona, USA</from>
+			<humans>
+				<human>Tom Waits</human>
+			</humans>
+			<genres>
+				<genre>rock</genre>
+				<genre>blues</genre>
+				<genre>folk</genre>
+			</genres>
+			<bio>Amerykański wokalista, kompozytor, instrumentalista, autor tekstów, poeta i aktor. Choć twórczość Waitsa zaliczana jest do rocka, to w jego muzyce krzyżują się wpływy jazzu, bluesa, folku, rock and rolla i tradycyjnego popu.
+
+			Tom Waits gra na instrumentach klawiszowych, gitarze, akordeonie oraz wielu niekonwencjonalnych instrumentach jak np. przypominający ksylofon chamberlin. Na początku kariery (głównie przed wydaniem albumu Swordfishtrombones w 1983 roku) śpiewał najczęściej przy akompaniamencie sekcji jazzowych. Później, wraz z rozwojem ogólnej koncepcji muzycznej, brzmienie jego utworów zaczęło być bardziej rockowo-eksperymentalne. O jego albumie Rain Dogs jeden z krytyków napisał, że "był on tym punktem ostatecznej przemiany Waitsa z ekscentrycznego piosenkarza w prawdziwie dziwnego piosenkarza".
+
+			Bardzo charakterystyczną cechą muzyki Waitsa jest jego niski głos. Śpiewa on swoje własne bardzo osobiste, 	melancholijne, gorzkie w wymowie, cyniczne i często zakrapiane czarnym humorem poezje. Często są inspirowane literackimi dokonaniami przedstawicieli amerykańskiej literatury beat, zwłaszcza Jacka Kerouaca i Charlesa Bukowskiego. Sukcesy występów artysty charakteryzujące się kameralną teatralnością skłoniły Waitsa do spróbowania szczęścia w zawodzie aktora. Zagrał najczęściej epizodyczne, charakterystyczne role w kilku filmach, zyskując dobre recenzje krytyków. Tom Waits komponuje również muzykę filmową. Także niektóre z jego piosenek zostały wykorzystane w filmowych produkcjach. Współpracował m.in. z takimi reżyserami jak: Francis Ford Coppola, Jim Jarmusch, Robert Altman, Hector Babenco, Terry Gilliam.
+
+
+			Zawsze wolał nagrywać dla małych wytwórni. Gdy jakaś stawała się „zbyt duża” przenosił się do innej. Nigdy nie wystąpił w reklamie, co uważa za poniżające dla artysty. Nie zgodził się też na wielokrotne próby użycia jego muzyki w jakiejkolwiek z nich. Ma za to na koncie kilka wygranych pozwów o nielegalne użycie jego muzyki w celach komercyjnych, m.in. z Frito Lay, Audi, Oplem.
+
+			Waits jest członkiem tajnego stowarzyszenia znanego jako Sons of Lee Marvin.</bio>
+		</artist>
+
+		<artist id="7">
+			<name>Przemysław Gintrowski</name>
+			<start-date>1976</start-date>
+			<stop-date>2012</stop-date>
+			<from>Warszawa, Polska</from>
+			<humans>
+				<human>Przemysław Gintrowski</human>
+			</humans>
+			<genres>
+				<genre>poezja śpiewana</genre>
+			</genres>
+			<bio>Urodzony 21 grudnia 1951 w Stargard, zmarł 20 października 2012 w Warszawie. Polski inżynier, nauczyciel, kompozytor i muzyk. Był jedynym dzieckiem Jarosława i Teresy Gintrowskich. Debiutował w 1976 roku na przeglądzie w warszawskiej Riwierze piosenką Epitafium dla Sergiusza Jesienina. Niedługo później, w 1979 roku, wspólnie z Jackiem Kaczmarskim i Zbigniewem Łapińskim stworzyli trio i przygotowali program poetycki Mury. Tytułowa piosenka programu, Mury, oparta na utworze katalońskiego barda Lluisa Llacha L’Estaca – stała się nieformalnym hymnem „Solidarności” i symbolem walki z reżimem. Kolejne programy, jakie stworzyli w tym składzie to Raj i Muzeum. Na XIX Krajowym Festiwalu Piosenki Polskiej w Opolu otrzymał wraz z Jackiem Kaczmarskim II nagrodę za piosenkę Epitafium dla Włodzimierza Wysockiego autorstwa Kaczmarskiego.</bio>
+		</artist>
+
+		<artist id="8">
+			<name>Bob Dylan</name>
+			<start-date>1941</start-date>
+			<from>Duluth, USA</from>
+			<humans>
+				<human>Bob Dylan</human>
+			</humans>
+			<genres>
+				<genre>folk</genre>
+				<genre>folk rock</genre>
+				<genre>rock</genre>
+				<genre>blues</genre>
+				<genre>country</genre>
+			</genres>
+			<bio>Właściwie: Robert Allen Zimmerman (ur. 24 maja 1941 w Duluth) – amerykański piosenkarz, kompozytor, autor tekstów, pisarz i poeta.
+
+			Jest jedną z najważniejszych postaci muzyki popularnej ostatnich pięciu dekad. Swój indywidualny styl oparł na wielu gatunkach muzycznych, od tradycyjnego amerykańskiego folku i country bluesa poprzez country do muzyki gospel, rock and rolla, rockabilly, czy angielskiej, szkockiej i irlandzkiej muzyki folkowej, a także jazzu i swingu. Występuje z gitarą akustyczną, elektryczną, keyboardem, harmonijką ustną.
+
+			Wczesne utwory Boba Dylana zawierające komentarze społeczne, polityczne, filozoficzne i odwołujące się do literatury ignorowały istniejące konwencje muzyki pop, wpisując się w nurt ówczesnej kontrkultury.
+
+			Twórca piosenek uznawanych za hymny pokolenia: Blowin' in the Wind, Like a Rolling Stone i protest songów: The Times They Are a-Changin', Hurricane.</bio>
+		</artist>
+
+		<artist id="9">
+			<name>The Doors</name>
+			<start-date>1965</start-date>
+			<stop-date>1972</stop-date>
+			<from>Los Angeles, USA</from>
+			<humans>
+				<human>Jim Morrison</human>
+				<human>Ray Manzarek</human>
+				<human>Robby Krieger</human>
+				<human>John Densmore</human>
+			</humans>
+			<genres>
+				<genre>psychodeliczny rock</genre>
+				<genre>jazz rock</genre>
+				<genre>blues rock</genre>
+			</genres>
+			<bio>Amerykańska grupa rockowa powstała w lipcu 1965, rozwiązana w 1972 roku. Grupa wzięła swój początek od przypadkowego spotkania dwóch studentów szkoły filmowej Uniwersytetu Kalifornijskiego, Jima Morrisona i Raya Manzarka, na plaży w Venice, części Los Angeles. Znali się wcześniej ze szkoły, a Manzarek, który grał wtedy we własnym zespole, dostrzegał potencjał estradowy i muzyczny w Jimie. Często próbował wciągać go na scenę, gdy grał z zespołem, lecz Jim zbytnio się wstydził, aby wyjść na scenę i pokazać, co potrafi "Król Jaszczur". Na pytanie Manzarka, co ma zamiar robić po skończeniu szkoły, Morrison odpowiedział, że pisać piosenki. Gdy ten klęcząc obok Manzarka zaśpiewał Moonlight Drive Manzarek, pianista o klasycznym profilu muzycznego wykształcenia, postanowił założyć zespół. Zaprosił do współpracy swoich dwóch przyjaciół-muzyków: jazzowego gitarzystę, specjalizującego się we flamenco, Robby'ego Kriegera i także jazzowego perkusistę, Johna Densmore'a. W ten sposób powstał zespół The Doors.
+
+			Sama nazwa zaczerpnięta była z tytułu książki Aldousa Huxleya The Doors of perception – "Drzwi percepcji", zainspirowanego z kolei słowami Williama Blake'a: "Gdyby bramy percepcji zostały otwarte, wszystko ujawniłoby się człowiekowi takim, jakim jest – nieskończonym". Nazwa "The Doors" była jedynym wymogiem Jima gdy Ray namówił go na sformowanie zespołu.</bio>
+		</artist>
+
+		<artist id="10">
+			<name>Deep Purple</name>
+			<start-date>1968</start-date>
+			<from>Wielka Brytania</from>
+			<humans>
+				<human>Ian Gillan</human>
+				<human>Steve Morse</human>
+				<human>Roger Glover</human>
+				<human>Don Airey</human>
+				<human>Ian Paice</human>
+			</humans>
+			<genres>
+				<genre>hard rock</genre>
+				<genre>heavy metal</genre>
+				<genre>blues rock</genre>
+				<genre>acid rock</genre>
+				<genre>rock progresywny</genre>
+			</genres>
+			<bio>brytyjska grupa rockowa. Grupa powstała w Hertfordshire w 1968 początkowo pod nazwą Roundabout w następującym składzie: Ritchie Blackmore, Jon Lord, Nick Simper, Ian Paice oraz Rod Evans. Wspólnie z Led Zeppelin i Black Sabbath jest uważana za pioniera hard rocka i heavy metalu, chociaż niektórzy członkowie zespołu uważają, iż ich muzyki nie da się ściśle zaszufladkować do konkretnego gatunku. Do swojej twórczości zespół często włączał pierwiastek muzyki poważnej, blues rocka, popu i rocka progresywnego. Deep Purple został odnotowany w księdze Rekordów Guinessa, jako „Najgłośniejszy zespół świata". Jak do tej pory, zespół sprzedał ponad 100 milionów płyt na całym świecie. Deep Purple zajął 22. miejsce w rankingu VH1's Greatest Artists of Hard Rock. Jeden z pierwszych i najbardziej wpływowych zespołów grających hard rock.</bio>
+		</artist>
+	</artists>
+
+</db>
